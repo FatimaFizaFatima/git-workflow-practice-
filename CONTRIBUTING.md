@@ -89,6 +89,14 @@ Every PR must include:
 - Use **Squash and Merge** for feature/fix PRs into `develop`.
 - Keep feature branches up to date with `develop` during long-running work.
 
+## CI Checks
+
+This project currently contains no application code (no build, test, or lint 
+pipeline exists yet). Required CI checks will be configured once the project 
+includes code that can be automatically built and/or tested. At that point, 
+this ruleset will be updated to require the relevant CI workflow(s) to pass 
+before merging.
+
 ## Never Commit
 
 - Secrets, API keys, or passwords
